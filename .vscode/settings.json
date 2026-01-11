@@ -7,5 +7,11 @@
 		"**/.DS_Store": true,
 		"**/*.o": true,
 		"**/*.exe": true,
-	}
+	},
+	"idf.pythonInstallPath": "C:\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+	"idf.espIdfPathWin": "C:/Espressif/frameworks/esp-idf-v5.5.1/",
+	"idf.toolsPathWin": "C:\\Espressif",
+	"idf.openOcdConfigs": [
+		"board/esp32-wrover-kit-3.3v.cfg"
+	]
 }

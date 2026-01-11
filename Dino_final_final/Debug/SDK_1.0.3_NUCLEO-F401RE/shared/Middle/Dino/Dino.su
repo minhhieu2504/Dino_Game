@@ -1,0 +1,6 @@
+D:/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/shared/Middle/Dino/Dino.c:3:6:Dino_Init	16	static
+D:/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/shared/Middle/Dino/Dino.c:8:6:Dino_Reset	16	static
+D:/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/shared/Middle/Dino/Dino.c:16:6:Dino_Update	24	static
+D:/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/shared/Middle/Dino/Dino.c:44:5:Dino_GetX	16	static
+D:/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/shared/Middle/Dino/Dino.c:49:5:Dino_GetY	16	static
+D:/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/ThuVien_SDK_1.0.3_NUCLEO-F401RE-master/shared/Middle/Dino/Dino.c:54:6:Dino_GetHitBox	32	static
