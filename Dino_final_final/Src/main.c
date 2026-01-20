@@ -1,18 +1,3 @@
-/*******************************************************************************
- *
- * Copyright (c) 2020
- * Lumi, JSC.
- * All Rights Reserved
- *
- * Description: Lab2.2
- *
- * Author: Developer embedded team
- *
- * Last Changed By:  $Author: HoangNH $
- * Revision:         $Revision: 1.0 $
- * Last Changed:     $Date: 10/7/2020 $
- *
- ******************************************************************************/
 #include "stm32f401re_rcc.h"
 #include "stm32f401re_gpio.h"
 #include "Game.h"
@@ -104,15 +89,11 @@ static void Buzzer_Init(void);
 static void BuzzerControl_SetStatus(GPIO_TypeDef * GPIOx,uint8_t GPIO_PIN, uint8_t Status);
 static void Delay(uint32_t ms);
 
-
-
 //-----------------------------------------------------------------------------
 int main(void)
 {
 
 	AppInitCommon();
-
-    SystemCoreClockUpdate();
 	TimerInit();
 
 	Game game;
@@ -167,7 +148,7 @@ int main(void)
 				break;
 
 			case PLAYING:
-				Game_Update(&game, &input);
+				Game_UpdatePlaying(&game, &input);
 				RenderPlaying(&game);
 				break;
 
@@ -186,12 +167,6 @@ int main(void)
 }
 
 
-/**
- * @func   Initializes
- * @brief  Initializes All Periperal
- * @param  None
- * @retval None
- */
 static void LCD_Init(void)
 {
     Ucglib4WireSWSPI_begin(&ucg, UCG_FONT_MODE_SOLID);
@@ -276,7 +251,7 @@ static void RenderMenu(const GameInput* input, Game* game)
     else
         ucg_DrawString(&ucg, 25, 98, 0, "  High Score");
 
-    needRedraw = 0;   // ✅ rất quan trọng
+    needRedraw = 0;
 }
 
 static void IntToStr(int value, char* buf)
@@ -299,7 +274,6 @@ static void IntToStr(int value, char* buf)
         value /= 10;
     }
 
-    // đảo ngược
     while (j > 0)
     {
         buf[i++] = tmp[--j];
@@ -336,7 +310,6 @@ static void RenderHighScore(const GameInput* input, Game* game)
 
     ucg_ClearScreen(&ucg);
     ucg_SetFont(&ucg, ucg_font_helvR08_tf);
-
     ucg_DrawString(&ucg, 25, 40, 0, "HIGH SCORE");
 
     /* ===== SCORE ===== */
@@ -392,7 +365,6 @@ static void RenderLevelMenu(const GameInput* input, Game* game)
 
     ucg_ClearScreen(&ucg);
     ucg_SetFont(&ucg, ucg_font_helvR08_tf);
-
     ucg_DrawString(&ucg, 30, 40, 0, "Select Level");
 
     if (levelIndex == 1)
@@ -435,13 +407,7 @@ static void DrawDino(const Dino* dino)
         {
             if (dinoSprite[y][x])
             {
-                ucg_DrawBox(
-                    &ucg,
-                    baseX + x * PIXEL_SCALE,
-                    baseY + y * PIXEL_SCALE,
-                    PIXEL_SCALE,
-                    PIXEL_SCALE
-                );
+                ucg_DrawBox(&ucg,baseX + x * PIXEL_SCALE, baseY + y * PIXEL_SCALE, PIXEL_SCALE, PIXEL_SCALE);
             }
         }
     }
@@ -467,13 +433,7 @@ static void DrawOneCactus(int baseX, int baseY)
         {
             if (cactusSprite[y][x])
             {
-                ucg_DrawBox(
-                    &ucg,
-                    baseX + x * PIXEL_SCALE,
-                    baseY + y * PIXEL_SCALE,
-                    PIXEL_SCALE,
-                    PIXEL_SCALE
-                );
+                ucg_DrawBox(&ucg, baseX + x * PIXEL_SCALE, baseY + y * PIXEL_SCALE, PIXEL_SCALE, PIXEL_SCALE);
             }
         }
     }
@@ -491,13 +451,7 @@ static void DrawObstacles(const ObstacleManager* om)
 
         /* ===== CLEAR OBSTACLE CŨ ===== */
         ucg_SetColor(&ucg, 0, 0, 0, 0);
-        ucg_DrawBox(
-            &ucg,
-            obs->prevX,
-            obs->y,
-            width,
-            height
-        );
+        ucg_DrawBox(&ucg, obs->prevX, obs->y, width, height);
 
         /* ===== DRAW OBSTACLE MỚI ===== */
         ucg_SetColor(&ucg, 0, 255, 255, 255);
@@ -510,30 +464,25 @@ static void DrawObstacles(const ObstacleManager* om)
     }
 }
 
+// Vẽ chữ "Score:"
 static void DrawScoreLabel(void)
 {
     ucg_SetFont(&ucg, ucg_font_helvR08_tf);
     ucg_SetColor(&ucg, 0, 255, 255, 255);
-
     ucg_DrawString(&ucg, 0, 10, 0, "Score:");
 }
 
+// sau chữ "Score:"
 static void DrawScoreNumber(int score)
 {
-    int x = 42;   // sau chữ "Score:"
+    int x = 42;
     int y = 10;
 
     /* ===== CLEAR SỐ CŨ ===== */
     if (!firstScoreFrame)
     {
         ucg_SetColor(&ucg, 0, 0, 0, 0);
-        ucg_DrawBox(
-            &ucg,
-            prevScoreNumRect.x,
-            prevScoreNumRect.y,
-            prevScoreNumRect.w,
-            prevScoreNumRect.h
-        );
+        ucg_DrawBox(&ucg,prevScoreNumRect.x,prevScoreNumRect.y, prevScoreNumRect.w, prevScoreNumRect.h);
     }
 
     /* ===== DRAW SỐ MỚI ===== */
@@ -569,21 +518,15 @@ static void RenderPlaying(Game* game)
 	DrawScoreNumber(Game_GetScore(game));
 
     /* Clear Dino cũ */
-    if (!firstFrame) {
+    if (!firstFrame)
+    {
         ucg_SetColor(&ucg, 0, 0, 0, 0);   // màu nền
-        ucg_DrawBox(&ucg,
-            prevDinoRect.x,
-            prevDinoRect.y,
-            prevDinoRect.w,
-            prevDinoRect.h
-        );
+        ucg_DrawBox(&ucg, prevDinoRect.x, prevDinoRect.y, prevDinoRect.w, prevDinoRect.h);
     }
 
     /* Ground (vẽ 1 lần hoặc vẽ đè) */
     ucg_SetColor(&ucg, 0, 255, 255, 255);
-//    ucg_DrawHLine(&ucg, 0, GROUND_Y, SCREEN_WIDTH);
-    if (firstFrame)
-		ucg_DrawHLine(&ucg, 0, GROUND_Y, SCREEN_WIDTH);
+    if (firstFrame) ucg_DrawHLine(&ucg, 0, GROUND_Y, SCREEN_WIDTH);
 
     /* Draw Dino mới */
     DrawDino(dino);
@@ -639,8 +582,7 @@ static GameInput ReadGameInput(void)
     return out;
 }
 
-static
-void AppInitCommon(void)
+static void AppInitCommon(void)
 {
 	//System 84MHz-------------------------------------------------------------
 	SystemCoreClockUpdate();
@@ -652,14 +594,7 @@ void AppInitCommon(void)
 	Buzzer_Init();
 }
 
-///**
-// * @func   BuzzerControl_SetStatus
-// * @brief  Control Turn on or Turn off Buzzer
-// * @param  None
-// * @retval None
-// */
-static
-void BuzzerControl_SetStatus(GPIO_TypeDef * GPIOx, uint8_t GPIO_PIN, uint8_t Status)
+static void BuzzerControl_SetStatus(GPIO_TypeDef * GPIOx, uint8_t GPIO_PIN, uint8_t Status)
 {
 
 	//Set bit in BSRR Registers------------------------------------------------
@@ -674,14 +609,7 @@ void BuzzerControl_SetStatus(GPIO_TypeDef * GPIOx, uint8_t GPIO_PIN, uint8_t Sta
 	}
 }
 
-///**
-// * @func   ButtonRead_Status
-// * @brief  Read Status Button
-// * @param  None
-// * @retval None
-// */
-static
-uint8_t ButtonRead_Status(GPIO_TypeDef * GPIOx, uint32_t GPIO_PIN)
+static uint8_t ButtonRead_Status(GPIO_TypeDef * GPIOx, uint32_t GPIO_PIN)
 {
 	uint32_t Read_Pin;
 
@@ -692,14 +620,7 @@ uint8_t ButtonRead_Status(GPIO_TypeDef * GPIOx, uint32_t GPIO_PIN)
 	return Read_Pin;
 }
 
-///**
-// * @func   Delay Time
-// * @brief  Delay
-// * @param  None
-// * @retval None
-// */
-static
-void Delay(uint32_t ms)
+static void Delay(uint32_t ms)
 {
 	uint32_t i,j;
 	for (i = 0 ; i < ms ; i ++)
@@ -708,16 +629,9 @@ void Delay(uint32_t ms)
 	}
 }
 
-///**
-// * @func   Initializes GPIO Use Buzzer
-// * @brief  Buzzer_Init
-// * @param  None
-// * @retval None
-// */
-//static
-void Buzzer_Init(void)
+static void Buzzer_Init(void)
 {
-	//Declare type variable GPIO Struc-----------------------------------------
+	//Declare type variable GPIO Struct-----------------------------------------
 	GPIO_InitTypeDef GPIO_InitStructure;
 
 	//Enable Clock GPIOC-------------------------------------------------------
@@ -742,14 +656,7 @@ void Buzzer_Init(void)
 	GPIO_Init(BUZZER_GPIO_PORT, &GPIO_InitStructure);
 }
 
-///**
-// * @func   Initializes GPIO Use Button
-// * @brief  ButtonInit
-// * @param  None
-// * @retval None
-// */
-//static
-void Button_Init(void)
+static void Button_Init(void)
 {
     GPIO_InitTypeDef GPIO_InitStructure ;
 

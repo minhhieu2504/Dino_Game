@@ -1320,12 +1320,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .data          0x00000000        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .bss           0x00000000        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .text.Dino_Init
-                0x00000000       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .text.Dino_GetX
-                0x00000000       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .text.Dino_GetY
-                0x00000000       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_macro   0x00000000      0xae4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_macro   0x00000000       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_macro   0x00000000       0x8e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
@@ -1383,8 +1377,6 @@ Discarded input sections
  .text          0x00000000        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .data          0x00000000        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .bss           0x00000000        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .text.ObstacleManager_Init
-                0x00000000       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_macro   0x00000000      0xae4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_macro   0x00000000       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_macro   0x00000000       0x8e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
@@ -1393,7 +1385,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x6a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_macro   0x00000000      0x1df ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_macro   0x00000000       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x00000000       0x3a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x00000000       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .group         0x00000000        0xc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/button/button.o
  .group         0x00000000        0xc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/button/button.o
  .group         0x00000000        0xc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/button/button.o
@@ -4845,7 +4837,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x644 ./Src/main.o
  .debug_macro   0x00000000      0x2f4 ./Src/main.o
  .debug_macro   0x00000000       0x34 ./Src/main.o
- .debug_macro   0x00000000       0x3a ./Src/main.o
+ .debug_macro   0x00000000       0x22 ./Src/main.o
  .debug_macro   0x00000000      0x190 ./Src/main.o
  .debug_macro   0x00000000       0x22 ./Src/main.o
  .debug_macro   0x00000000      0x301 ./Src/main.o
@@ -5326,7 +5318,7 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
                 0x08000000                g_pfnVectors
                 0x08000194                        . = ALIGN (0x4)
 
-.text           0x080001a0     0x55f4
+.text           0x080001a0     0x55a4
                 0x080001a0                        . = ALIGN (0x4)
  *(.text)
  .text          0x080001a0       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -5364,696 +5356,695 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
                 0x08000856       0x3a ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
                 0x08000856                USART_ClearITPendingBit
  .text.Dino_Reset
-                0x08000890       0x2c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                0x08000890       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
                 0x08000890                Dino_Reset
  .text.Dino_Update
-                0x080008bc       0x7c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
-                0x080008bc                Dino_Update
+                0x080008c4       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                0x080008c4                Dino_Update
  .text.Dino_GetHitBox
-                0x08000938       0x36 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
-                0x08000938                Dino_GetHitBox
+                0x08000948       0x36 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                0x08000948                Dino_GetHitBox
  .text.Game_Init
-                0x0800096e       0x5a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x0800096e                Game_Init
+                0x0800097e       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x0800097e                Game_Init
  .text.Game_Reset
                 0x080009c8       0x3e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
                 0x080009c8                Game_Reset
- .text.Game_Update
-                0x08000a06       0x26 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x08000a06                Game_Update
  .text.Game_UpdatePlaying
-                0x08000a2c       0x78 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000a06       0x78 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000a06                Game_UpdatePlaying
  .text.Game_CheckCollision
-                0x08000aa4       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000a7e       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
  .text.Game_GetState
-                0x08000ac4       0x1a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x08000ac4                Game_GetState
+                0x08000a9e       0x1a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000a9e                Game_GetState
  .text.Game_GetScore
-                0x08000ade       0x1a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x08000ade                Game_GetScore
+                0x08000ab8       0x1a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000ab8                Game_GetScore
  .text.Game_GetHighScore
-                0x08000af8       0x1a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x08000af8                Game_GetHighScore
+                0x08000ad2       0x1a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000ad2                Game_GetHighScore
  .text.Game_GetDino
-                0x08000b12       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x08000b12                Game_GetDino
+                0x08000aec       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000aec                Game_GetDino
  .text.Game_GetObstacleManager
-                0x08000b28       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                0x08000b28                Game_GetObstacleManager
+                0x08000b02       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x08000b02                Game_GetObstacleManager
  .text.ObstacleManager_Reset
-                0x08000b40       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
-                0x08000b40                ObstacleManager_Reset
+                0x08000b1a       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+                0x08000b1a                ObstacleManager_Reset
+ *fill*         0x08000b62        0x2 
  .text.ObstacleManager_Update
-                0x08000b88      0x20c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
-                0x08000b88                ObstacleManager_Update
+                0x08000b64      0x1e8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+                0x08000b64                ObstacleManager_Update
  .text.ObstacleManager_CheckCollision
-                0x08000d94       0x9c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
-                0x08000d94                ObstacleManager_CheckCollision
+                0x08000d4c       0x98 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+                0x08000d4c                ObstacleManager_CheckCollision
  .text.NVIC_SetPriority
-                0x08000e30       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08000de4       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .text.SysTick_Config
-                0x08000e84       0x44 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08000e38       0x44 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .text.TimerInit
-                0x08000ec8       0x44 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
-                0x08000ec8                TimerInit
+                0x08000e7c       0x44 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08000e7c                TimerInit
  .text.TimerStart
-                0x08000f0c       0xc4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
-                0x08000f0c                TimerStart
+                0x08000ec0       0xc4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08000ec0                TimerStart
  .text.TimerStop
-                0x08000fd0       0xa0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
-                0x08000fd0                TimerStop
+                0x08000f84       0xa0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08000f84                TimerStop
  .text.GetMilSecTick
-                0x08001070       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
-                0x08001070                GetMilSecTick
+                0x08001024       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08001024                GetMilSecTick
  .text.processTimerScheduler
-                0x08001088       0xf4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
-                0x08001088                processTimerScheduler
+                0x0800103c       0xf4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x0800103c                processTimerScheduler
  .text.TimeExpired
-                0x0800117c       0xd4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08001130       0xd4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .text.SysTick_Handler
-                0x08001250       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
-                0x08001250                SysTick_Handler
+                0x08001204       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x08001204                SysTick_Handler
  .text.USART2_IRQHandler
-                0x0800126c       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
-                0x0800126c                USART2_IRQHandler
+                0x08001220       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+                0x08001220                USART2_IRQHandler
  .text.delayMicroseconds
-                0x080012c0       0x14 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x08001274       0x14 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
  .text.ucg_gpio_init
-                0x080012d4       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x08001288       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
  .text.ucg_com_arduino_send_generic_SW_SPI
-                0x08001334       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x080012e8       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
  .text.ucg_com_arduino_generic_SW_SPI
-                0x080013a8      0x1ec ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x0800135c      0x1ec ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
  .text.Ucglib4WireSWSPI_begin
-                0x08001594       0x38 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
-                0x08001594                Ucglib4WireSWSPI_begin
+                0x08001548       0x38 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x08001548                Ucglib4WireSWSPI_begin
  .text.ucg_DrawBox
-                0x080015cc       0x58 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
-                0x080015cc                ucg_DrawBox
+                0x08001580       0x58 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+                0x08001580                ucg_DrawBox
  .text.ucg_ClearScreen
-                0x08001624       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
-                0x08001624                ucg_ClearScreen
+                0x080015d8       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+                0x080015d8                ucg_ClearScreen
  .text.ucg_ccs_init
-                0x08001674       0xc0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
-                0x08001674                ucg_ccs_init
+                0x08001628       0xc0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+                0x08001628                ucg_ccs_init
  .text.ucg_ccs_step
-                0x08001734       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
-                0x08001734                ucg_ccs_step
+                0x080016e8       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+                0x080016e8                ucg_ccs_step
  .text.ucg_ccs_seek
-                0x080017b4       0xca ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
-                0x080017b4                ucg_ccs_seek
+                0x08001768       0xca ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+                0x08001768                ucg_ccs_seek
  .text.ucg_clip_is_x_visible
-                0x0800187e       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x08001832       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
  .text.ucg_clip_is_y_visible
-                0x080018c8       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x0800187c       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
  .text.ucg_clip_intersection
-                0x08001912       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x080018c6       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
  .text.ucg_clip_is_pixel_visible
-                0x08001986       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
-                0x08001986                ucg_clip_is_pixel_visible
+                0x0800193a       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x0800193a                ucg_clip_is_pixel_visible
  .text.ucg_clip_l90fx
-                0x080019b8      0x300 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
-                0x080019b8                ucg_clip_l90fx
+                0x0800196c      0x300 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x0800196c                ucg_clip_l90fx
  .text.ucg_clip_l90se
-                0x08001cb8       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
-                0x08001cb8                ucg_clip_l90se
+                0x08001c6c       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x08001c6c                ucg_clip_l90se
  .text.ucg_com_PowerDown
-                0x08001d0c       0x3e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001d0c                ucg_com_PowerDown
+                0x08001cc0       0x3e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001cc0                ucg_com_PowerDown
  .text.ucg_com_PowerUp
-                0x08001d4a       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001d4a                ucg_com_PowerUp
+                0x08001cfe       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001cfe                ucg_com_PowerUp
  .text.ucg_com_SetLineStatus
-                0x08001daa       0xe2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001daa                ucg_com_SetLineStatus
+                0x08001d5e       0xe2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001d5e                ucg_com_SetLineStatus
  .text.ucg_com_SetResetLineStatus
-                0x08001e8c       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001e8c                ucg_com_SetResetLineStatus
+                0x08001e40       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001e40                ucg_com_SetResetLineStatus
  .text.ucg_com_SetCSLineStatus
-                0x08001eac       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001eac                ucg_com_SetCSLineStatus
+                0x08001e60       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001e60                ucg_com_SetCSLineStatus
  .text.ucg_com_SetCDLineStatus
-                0x08001ecc       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001ecc                ucg_com_SetCDLineStatus
+                0x08001e80       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001e80                ucg_com_SetCDLineStatus
  .text.ucg_com_DelayMicroseconds
-                0x08001eec       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001eec                ucg_com_DelayMicroseconds
+                0x08001ea0       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001ea0                ucg_com_DelayMicroseconds
  .text.ucg_com_DelayMilliseconds
-                0x08001f0e       0x2e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001f0e                ucg_com_DelayMilliseconds
+                0x08001ec2       0x2e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001ec2                ucg_com_DelayMilliseconds
  .text.ucg_com_SendByte
-                0x08001f3c       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001f3c                ucg_com_SendByte
+                0x08001ef0       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001ef0                ucg_com_SendByte
  .text.ucg_com_SendStringP
-                0x08001f60       0x42 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08001f60                ucg_com_SendStringP
+                0x08001f14       0x42 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001f14                ucg_com_SendStringP
  .text.ucg_com_SendCmdArg
-                0x08001fa2       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
- *fill*         0x08002016        0x2 
+                0x08001f56       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ *fill*         0x08001fca        0x2 
  .text.ucg_com_SendCmdSeq
-                0x08002018      0x27c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
-                0x08002018                ucg_com_SendCmdSeq
+                0x08001fcc      0x27c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x08001fcc                ucg_com_SendCmdSeq
  .text.ucg_dev_default_cb
-                0x08002294       0x44 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
-                0x08002294                ucg_dev_default_cb
+                0x08002248       0x44 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+                0x08002248                ucg_dev_default_cb
  .text.ucg_ext_none
-                0x080022d8       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
-                0x080022d8                ucg_ext_none
+                0x0800228c       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+                0x0800228c                ucg_ext_none
  .text.ucg_handle_st7735_l90fx
-                0x080022f4       0xdc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x080022f4                ucg_handle_st7735_l90fx
+                0x080022a8       0xdc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x080022a8                ucg_handle_st7735_l90fx
  .text.ucg_handle_st7735_l90se
-                0x080023d0      0x15c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x080023d0                ucg_handle_st7735_l90se
+                0x08002384      0x15c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x08002384                ucg_handle_st7735_l90se
  .text.ucg_dev_ic_st7735_18
-                0x0800252c       0xf8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x0800252c                ucg_dev_ic_st7735_18
+                0x080024e0       0xf8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x080024e0                ucg_dev_ic_st7735_18
  .text.ucg_ext_st7735_18
-                0x08002624       0x28 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x08002624                ucg_ext_st7735_18
+                0x080025d8       0x28 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x080025d8                ucg_ext_st7735_18
  .text.ucg_PowerDown
-                0x0800264c       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
-                0x0800264c                ucg_PowerDown
+                0x08002600       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x08002600                ucg_PowerDown
  .text.ucg_PowerUp
-                0x08002680       0x3c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
-                0x08002680                ucg_PowerUp
+                0x08002634       0x3c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x08002634                ucg_PowerUp
  .text.ucg_SetClipBox
-                0x080026bc       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
-                0x080026bc                ucg_SetClipBox
+                0x08002670       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x08002670                ucg_SetClipBox
  .text.ucg_SetMaxClipRange
-                0x080026da       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
-                0x080026da                ucg_SetMaxClipRange
+                0x0800268e       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x0800268e                ucg_SetMaxClipRange
  .text.ucg_GetDimension
-                0x0800270a       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
-                0x0800270a                ucg_GetDimension
+                0x080026be       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x080026be                ucg_GetDimension
  .text.ucg_DrawL90FXWithArg
-                0x0800272e       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
-                0x0800272e                ucg_DrawL90FXWithArg
+                0x080026e2       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x080026e2                ucg_DrawL90FXWithArg
  .text.ucg_dev_st7735_18x128x128
-                0x0800274c       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
-                0x0800274c                ucg_dev_st7735_18x128x128
+                0x08002700       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+                0x08002700                ucg_dev_st7735_18x128x128
  .text.ucg_font_get_byte
-                0x080027d4       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002788       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .text.ucg_font_get_word
-                0x080027f8       0x40 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x080027ac       0x40 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .text.ucg_read_font_info
-                0x08002838      0x142 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002838                ucg_read_font_info
+                0x080027ec      0x142 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x080027ec                ucg_read_font_info
  .text.ucg_font_decode_get_unsigned_bits
-                0x0800297a       0x96 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x0800297a                ucg_font_decode_get_unsigned_bits
+                0x0800292e       0x96 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x0800292e                ucg_font_decode_get_unsigned_bits
  .text.ucg_font_decode_get_signed_bits
-                0x08002a10       0x46 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002a10                ucg_font_decode_get_signed_bits
+                0x080029c4       0x46 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x080029c4                ucg_font_decode_get_signed_bits
  .text.ucg_add_vector_y
-                0x08002a56       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002a0a       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .text.ucg_add_vector_x
-                0x08002ad6       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002a8a       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .text.ucg_font_decode_len
-                0x08002b56      0x114 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002b56                ucg_font_decode_len
+                0x08002b0a      0x114 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002b0a                ucg_font_decode_len
  .text.ucg_font_setup_decode
-                0x08002c6a       0x64 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002c1e       0x64 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .text.ucg_font_decode_glyph
-                0x08002cce      0x14c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002cce                ucg_font_decode_glyph
+                0x08002c82      0x14c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002c82                ucg_font_decode_glyph
  .text.ucg_font_get_glyph_data
-                0x08002e1a       0x7a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002e1a                ucg_font_get_glyph_data
+                0x08002dce       0x7a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002dce                ucg_font_get_glyph_data
  .text.ucg_font_draw_glyph
-                0x08002e94       0x62 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002e94                ucg_font_draw_glyph
+                0x08002e48       0x62 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002e48                ucg_font_draw_glyph
  .text.ucg_SetFontMode
-                0x08002ef6       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002ef6                ucg_SetFontMode
- *fill*         0x08002f16        0x2 
+                0x08002eaa       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002eaa                ucg_SetFontMode
+ *fill*         0x08002eca        0x2 
  .text.ucg_DrawGlyph
-                0x08002f18       0xb0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002f18                ucg_DrawGlyph
+                0x08002ecc       0xb0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002ecc                ucg_DrawGlyph
  .text.task_drawString
-                0x08002fc8      0x138 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08002fc8                task_drawString
+                0x08002f7c      0x138 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08002f7c                task_drawString
  .text.ucg_DrawString
-                0x08003100       0x78 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08003100                ucg_DrawString
+                0x080030b4       0x78 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x080030b4                ucg_DrawString
  .text.ucg_UpdateRefHeight
-                0x08003178       0xd8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08003178                ucg_UpdateRefHeight
+                0x0800312c       0xd8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x0800312c                ucg_UpdateRefHeight
  .text.ucg_font_calc_vref_font
-                0x08003250       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08003250                ucg_font_calc_vref_font
- *fill*         0x08003266        0x2 
+                0x08003204       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x08003204                ucg_font_calc_vref_font
+ *fill*         0x0800321a        0x2 
  .text.ucg_SetFontPosBaseline
-                0x08003268       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08003268                ucg_SetFontPosBaseline
+                0x0800321c       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x0800321c                ucg_SetFontPosBaseline
  .text.ucg_SetFont
-                0x08003288       0x4c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x08003288                ucg_SetFont
+                0x0800323c       0x4c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x0800323c                ucg_SetFont
  .text.ucg_init_struct
-                0x080032d4       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
-                0x080032d4                ucg_init_struct
+                0x08003288       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+                0x08003288                ucg_init_struct
  .text.ucg_Init
-                0x08003324       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
-                0x08003324                ucg_Init
+                0x080032d8       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+                0x080032d8                ucg_Init
  .text.ucg_Draw90Line
-                0x08003380       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
-                0x08003380                ucg_Draw90Line
+                0x08003334       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+                0x08003334                ucg_Draw90Line
  .text.ucg_DrawHLine
-                0x08003408       0x3c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
-                0x08003408                ucg_DrawHLine
+                0x080033bc       0x3c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+                0x080033bc                ucg_DrawHLine
  .text.ucg_SetColor
-                0x08003444       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
-                0x08003444                ucg_SetColor
+                0x080033f8       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+                0x080033f8                ucg_SetColor
  .text.ucg_UndoRotate
-                0x080034a0       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
-                0x080034a0                ucg_UndoRotate
+                0x08003454       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+                0x08003454                ucg_UndoRotate
  .text.ucg_rotate_180_xy
-                0x080034d2       0x66 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+                0x08003486       0x66 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
  .text.ucg_dev_rotate180
-                0x08003538      0x100 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
-                0x08003538                ucg_dev_rotate180
+                0x080034ec      0x100 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+                0x080034ec                ucg_dev_rotate180
  .text.ucg_SetRotate180
-                0x08003638       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
-                0x08003638                ucg_SetRotate180
- .text.bufInit  0x0800366c       0x36 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x0800366c                bufInit
+                0x080035ec       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+                0x080035ec                ucg_SetRotate180
+ .text.bufInit  0x08003620       0x36 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x08003620                bufInit
  .text.bufNumItems
-                0x080036a2       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x080036a2                bufNumItems
+                0x08003656       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x08003656                bufNumItems
  .text.bufIsFull
-                0x080036ba       0x26 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x080036ba                bufIsFull
+                0x0800366e       0x26 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x0800366e                bufIsFull
  .text.bufIsEmpty
-                0x080036e0       0x26 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x080036e0                bufIsEmpty
+                0x08003694       0x26 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x08003694                bufIsEmpty
  .text.bufFlush
-                0x08003706       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x08003706                bufFlush
+                0x080036ba       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x080036ba                bufFlush
  .text.bufEnDat
-                0x08003738       0x9e ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x08003738                bufEnDat
+                0x080036ec       0x9e ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x080036ec                bufEnDat
  .text.bufDeDat
-                0x080037d6       0x8a ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
-                0x080037d6                bufDeDat
- .text.memsetl  0x08003860       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
-                0x08003860                memsetl
- .text.main     0x08003894      0x170 ./Src/main.o
-                0x08003894                main
+                0x0800378a       0x8a ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x0800378a                bufDeDat
+ .text.memsetl  0x08003814       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+                0x08003814                memsetl
+ .text.main     0x08003848      0x16c ./Src/main.o
+                0x08003848                main
  .text.LCD_Init
-                0x08003a04       0x50 ./Src/main.o
+                0x080039b4       0x50 ./Src/main.o
  .text.UpdateMenu
-                0x08003a54       0x60 ./Src/main.o
+                0x08003a04       0x60 ./Src/main.o
  .text.RenderMenu
-                0x08003ab4      0x148 ./Src/main.o
+                0x08003a64      0x148 ./Src/main.o
  .text.IntToStr
-                0x08003bfc       0xb8 ./Src/main.o
+                0x08003bac       0xb8 ./Src/main.o
  .text.DrawNumber
-                0x08003cb4       0x74 ./Src/main.o
+                0x08003c64       0x74 ./Src/main.o
  .text.RenderHighScore
-                0x08003d28       0x84 ./Src/main.o
+                0x08003cd8       0x84 ./Src/main.o
  .text.UpdateLevelMenu
-                0x08003dac       0x60 ./Src/main.o
+                0x08003d5c       0x60 ./Src/main.o
  .text.RenderLevelMenu
-                0x08003e0c      0x108 ./Src/main.o
+                0x08003dbc      0x108 ./Src/main.o
  .text.DrawDino
-                0x08003f14       0x94 ./Src/main.o
+                0x08003ec4       0x94 ./Src/main.o
  .text.DrawOneCactus
-                0x08003fa8       0x88 ./Src/main.o
+                0x08003f58       0x88 ./Src/main.o
  .text.DrawObstacles
-                0x08004030       0xcc ./Src/main.o
+                0x08003fe0       0xcc ./Src/main.o
  .text.DrawScoreLabel
-                0x080040fc       0x40 ./Src/main.o
+                0x080040ac       0x40 ./Src/main.o
  .text.DrawScoreNumber
-                0x0800413c       0xd0 ./Src/main.o
+                0x080040ec       0xd0 ./Src/main.o
  .text.RenderPlaying
-                0x0800420c       0xdc ./Src/main.o
+                0x080041bc       0xdc ./Src/main.o
  .text.RenderGameOver
-                0x080042e8       0x68 ./Src/main.o
+                0x08004298       0x68 ./Src/main.o
  .text.ReadGameInput
-                0x08004350      0x124 ./Src/main.o
+                0x08004300      0x124 ./Src/main.o
  .text.AppInitCommon
-                0x08004474       0x14 ./Src/main.o
+                0x08004424       0x14 ./Src/main.o
  .text.BuzzerControl_SetStatus
-                0x08004488       0x60 ./Src/main.o
+                0x08004438       0x60 ./Src/main.o
  .text.ButtonRead_Status
-                0x080044e8       0x2e ./Src/main.o
- .text.Delay    0x08004516       0x40 ./Src/main.o
- *fill*         0x08004556        0x2 
+                0x08004498       0x2e ./Src/main.o
+ .text.Delay    0x080044c6       0x40 ./Src/main.o
+ *fill*         0x08004506        0x2 
  .text.Buzzer_Init
-                0x08004558       0x3c ./Src/main.o
+                0x08004508       0x3c ./Src/main.o
  .text.Button_Init
-                0x08004594       0x50 ./Src/main.o
- .text._getpid  0x080045e4       0x10 ./Src/syscalls.o
-                0x080045e4                _getpid
- .text._kill    0x080045f4       0x20 ./Src/syscalls.o
-                0x080045f4                _kill
- .text._exit    0x08004614       0x16 ./Src/syscalls.o
-                0x08004614                _exit
- .text._read    0x0800462a       0x3a ./Src/syscalls.o
-                0x0800462a                _read
- .text._write   0x08004664       0x38 ./Src/syscalls.o
-                0x08004664                _write
- .text._close   0x0800469c       0x18 ./Src/syscalls.o
-                0x0800469c                _close
- .text._fstat   0x080046b4       0x20 ./Src/syscalls.o
-                0x080046b4                _fstat
- .text._isatty  0x080046d4       0x16 ./Src/syscalls.o
-                0x080046d4                _isatty
- .text._lseek   0x080046ea       0x1a ./Src/syscalls.o
-                0x080046ea                _lseek
- .text._sbrk    0x08004704       0x6c ./Src/sysmem.o
-                0x08004704                _sbrk
+                0x08004544       0x50 ./Src/main.o
+ .text._getpid  0x08004594       0x10 ./Src/syscalls.o
+                0x08004594                _getpid
+ .text._kill    0x080045a4       0x20 ./Src/syscalls.o
+                0x080045a4                _kill
+ .text._exit    0x080045c4       0x16 ./Src/syscalls.o
+                0x080045c4                _exit
+ .text._read    0x080045da       0x3a ./Src/syscalls.o
+                0x080045da                _read
+ .text._write   0x08004614       0x38 ./Src/syscalls.o
+                0x08004614                _write
+ .text._close   0x0800464c       0x18 ./Src/syscalls.o
+                0x0800464c                _close
+ .text._fstat   0x08004664       0x20 ./Src/syscalls.o
+                0x08004664                _fstat
+ .text._isatty  0x08004684       0x16 ./Src/syscalls.o
+                0x08004684                _isatty
+ .text._lseek   0x0800469a       0x1a ./Src/syscalls.o
+                0x0800469a                _lseek
+ .text._sbrk    0x080046b4       0x6c ./Src/sysmem.o
+                0x080046b4                _sbrk
  .text.Reset_Handler
-                0x08004770       0x50 ./Startup/startup_stm32f401retx.o
-                0x08004770                Reset_Handler
+                0x08004720       0x50 ./Startup/startup_stm32f401retx.o
+                0x08004720                Reset_Handler
  .text.Default_Handler
-                0x080047c0        0x2 ./Startup/startup_stm32f401retx.o
-                0x080047c0                EXTI2_IRQHandler
-                0x080047c0                DebugMon_Handler
-                0x080047c0                SPI4_IRQHandler
-                0x080047c0                TIM1_CC_IRQHandler
-                0x080047c0                DMA2_Stream5_IRQHandler
-                0x080047c0                HardFault_Handler
-                0x080047c0                DMA1_Stream5_IRQHandler
-                0x080047c0                SDIO_IRQHandler
-                0x080047c0                TAMP_STAMP_IRQHandler
-                0x080047c0                PendSV_Handler
-                0x080047c0                NMI_Handler
-                0x080047c0                EXTI3_IRQHandler
-                0x080047c0                TIM1_UP_TIM10_IRQHandler
-                0x080047c0                I2C3_ER_IRQHandler
-                0x080047c0                EXTI18_OTG_FS_WKUP_IRQHandler
-                0x080047c0                EXTI0_IRQHandler
-                0x080047c0                I2C2_EV_IRQHandler
-                0x080047c0                DMA1_Stream2_IRQHandler
-                0x080047c0                UsageFault_Handler
-                0x080047c0                DMA2_Stream2_IRQHandler
-                0x080047c0                SPI1_IRQHandler
-                0x080047c0                TIM1_BRK_TIM9_IRQHandler
-                0x080047c0                DMA2_Stream3_IRQHandler
-                0x080047c0                USART6_IRQHandler
-                0x080047c0                DMA2_Stream0_IRQHandler
-                0x080047c0                TIM4_IRQHandler
-                0x080047c0                I2C1_EV_IRQHandler
-                0x080047c0                DMA1_Stream6_IRQHandler
-                0x080047c0                DMA1_Stream1_IRQHandler
-                0x080047c0                TIM3_IRQHandler
-                0x080047c0                RCC_IRQHandler
-                0x080047c0                Default_Handler
-                0x080047c0                EXTI15_10_IRQHandler
-                0x080047c0                ADC_IRQHandler
-                0x080047c0                DMA1_Stream7_IRQHandler
-                0x080047c0                TIM5_IRQHandler
-                0x080047c0                DMA2_Stream7_IRQHandler
-                0x080047c0                I2C3_EV_IRQHandler
-                0x080047c0                EXTI9_5_IRQHandler
-                0x080047c0                SPI2_IRQHandler
-                0x080047c0                MemManage_Handler
-                0x080047c0                DMA1_Stream0_IRQHandler
-                0x080047c0                SVC_Handler
-                0x080047c0                EXTI4_IRQHandler
-                0x080047c0                EXTI22_RTC_WKUP_IRQHandler
-                0x080047c0                TIM2_IRQHandler
-                0x080047c0                EXTI16_PVD_IRQHandler
-                0x080047c0                TIM1_TRG_COM_TIM11_IRQHandler
-                0x080047c0                EXTI1_IRQHandler
-                0x080047c0                EXTI17_RTC_Alarm_IRQHandler
-                0x080047c0                I2C2_ER_IRQHandler
-                0x080047c0                DMA2_Stream1_IRQHandler
-                0x080047c0                FLASH_IRQHandler
-                0x080047c0                DMA2_Stream4_IRQHandler
-                0x080047c0                BusFault_Handler
-                0x080047c0                USART1_IRQHandler
-                0x080047c0                OTG_FS_IRQHandler
-                0x080047c0                SPI3_IRQHandler
-                0x080047c0                DMA1_Stream4_IRQHandler
-                0x080047c0                I2C1_ER_IRQHandler
-                0x080047c0                DMA2_Stream6_IRQHandler
-                0x080047c0                DMA1_Stream3_IRQHandler
- *fill*         0x080047c2        0x2 
- .text.rand     0x080047c4       0x7c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-rand.o)
-                0x080047c4                rand
- .text.std      0x08004840       0x6c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x08004770        0x2 ./Startup/startup_stm32f401retx.o
+                0x08004770                EXTI2_IRQHandler
+                0x08004770                DebugMon_Handler
+                0x08004770                SPI4_IRQHandler
+                0x08004770                TIM1_CC_IRQHandler
+                0x08004770                DMA2_Stream5_IRQHandler
+                0x08004770                HardFault_Handler
+                0x08004770                DMA1_Stream5_IRQHandler
+                0x08004770                SDIO_IRQHandler
+                0x08004770                TAMP_STAMP_IRQHandler
+                0x08004770                PendSV_Handler
+                0x08004770                NMI_Handler
+                0x08004770                EXTI3_IRQHandler
+                0x08004770                TIM1_UP_TIM10_IRQHandler
+                0x08004770                I2C3_ER_IRQHandler
+                0x08004770                EXTI18_OTG_FS_WKUP_IRQHandler
+                0x08004770                EXTI0_IRQHandler
+                0x08004770                I2C2_EV_IRQHandler
+                0x08004770                DMA1_Stream2_IRQHandler
+                0x08004770                UsageFault_Handler
+                0x08004770                DMA2_Stream2_IRQHandler
+                0x08004770                SPI1_IRQHandler
+                0x08004770                TIM1_BRK_TIM9_IRQHandler
+                0x08004770                DMA2_Stream3_IRQHandler
+                0x08004770                USART6_IRQHandler
+                0x08004770                DMA2_Stream0_IRQHandler
+                0x08004770                TIM4_IRQHandler
+                0x08004770                I2C1_EV_IRQHandler
+                0x08004770                DMA1_Stream6_IRQHandler
+                0x08004770                DMA1_Stream1_IRQHandler
+                0x08004770                TIM3_IRQHandler
+                0x08004770                RCC_IRQHandler
+                0x08004770                Default_Handler
+                0x08004770                EXTI15_10_IRQHandler
+                0x08004770                ADC_IRQHandler
+                0x08004770                DMA1_Stream7_IRQHandler
+                0x08004770                TIM5_IRQHandler
+                0x08004770                DMA2_Stream7_IRQHandler
+                0x08004770                I2C3_EV_IRQHandler
+                0x08004770                EXTI9_5_IRQHandler
+                0x08004770                SPI2_IRQHandler
+                0x08004770                MemManage_Handler
+                0x08004770                DMA1_Stream0_IRQHandler
+                0x08004770                SVC_Handler
+                0x08004770                EXTI4_IRQHandler
+                0x08004770                EXTI22_RTC_WKUP_IRQHandler
+                0x08004770                TIM2_IRQHandler
+                0x08004770                EXTI16_PVD_IRQHandler
+                0x08004770                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08004770                EXTI1_IRQHandler
+                0x08004770                EXTI17_RTC_Alarm_IRQHandler
+                0x08004770                I2C2_ER_IRQHandler
+                0x08004770                DMA2_Stream1_IRQHandler
+                0x08004770                FLASH_IRQHandler
+                0x08004770                DMA2_Stream4_IRQHandler
+                0x08004770                BusFault_Handler
+                0x08004770                USART1_IRQHandler
+                0x08004770                OTG_FS_IRQHandler
+                0x08004770                SPI3_IRQHandler
+                0x08004770                DMA1_Stream4_IRQHandler
+                0x08004770                I2C1_ER_IRQHandler
+                0x08004770                DMA2_Stream6_IRQHandler
+                0x08004770                DMA1_Stream3_IRQHandler
+ *fill*         0x08004772        0x2 
+ .text.rand     0x08004774       0x7c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-rand.o)
+                0x08004774                rand
+ .text.std      0x080047f0       0x6c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
  .text.stdio_exit_handler
-                0x080048ac       0x18 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x0800485c       0x18 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x080048c4       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x08004874       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x08004904       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x080048b4       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
  .text.__sfp_lock_acquire
-                0x08004940        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x08004940                __sfp_lock_acquire
+                0x080048f0        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x080048f0                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0800494c        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x0800494c                __sfp_lock_release
- .text.__sinit  0x08004958       0x30 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x08004958                __sinit
+                0x080048fc        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x080048fc                __sfp_lock_release
+ .text.__sinit  0x08004908       0x30 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x08004908                __sinit
  .text._fwalk_sglue
-                0x08004988       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
-                0x08004988                _fwalk_sglue
- .text.__sread  0x080049c4       0x22 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
-                0x080049c4                __sread
+                0x08004938       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+                0x08004938                _fwalk_sglue
+ .text.__sread  0x08004974       0x22 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+                0x08004974                __sread
  .text.__swrite
-                0x080049e6       0x38 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
-                0x080049e6                __swrite
- .text.__sseek  0x08004a1e       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
-                0x08004a1e                __sseek
+                0x08004996       0x38 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+                0x08004996                __swrite
+ .text.__sseek  0x080049ce       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+                0x080049ce                __sseek
  .text.__sclose
-                0x08004a42        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
-                0x08004a42                __sclose
- .text.memset   0x08004a4a       0x10 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
-                0x08004a4a                memset
- *fill*         0x08004a5a        0x2 
+                0x080049f2        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+                0x080049f2                __sclose
+ .text.memset   0x080049fa       0x10 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+                0x080049fa                memset
+ *fill*         0x08004a0a        0x2 
  .text._close_r
-                0x08004a5c       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
-                0x08004a5c                _close_r
+                0x08004a0c       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+                0x08004a0c                _close_r
  .text._lseek_r
-                0x08004a7c       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
-                0x08004a7c                _lseek_r
- .text._read_r  0x08004aa0       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
-                0x08004aa0                _read_r
+                0x08004a2c       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+                0x08004a2c                _lseek_r
+ .text._read_r  0x08004a50       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+                0x08004a50                _read_r
  .text._write_r
-                0x08004ac4       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
-                0x08004ac4                _write_r
- .text.__errno  0x08004ae8        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
-                0x08004ae8                __errno
+                0x08004a74       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+                0x08004a74                _write_r
+ .text.__errno  0x08004a98        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+                0x08004a98                __errno
  .text.__libc_init_array
-                0x08004af4       0x48 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
-                0x08004af4                __libc_init_array
+                0x08004aa4       0x48 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+                0x08004aa4                __libc_init_array
  .text.__retarget_lock_init_recursive
-                0x08004b3c        0x2 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
-                0x08004b3c                __retarget_lock_init_recursive
+                0x08004aec        0x2 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                0x08004aec                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x08004b3e        0x2 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
-                0x08004b3e                __retarget_lock_acquire_recursive
+                0x08004aee        0x2 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                0x08004aee                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08004b40        0x2 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
-                0x08004b40                __retarget_lock_release_recursive
- *fill*         0x08004b42        0x2 
+                0x08004af0        0x2 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                0x08004af0                __retarget_lock_release_recursive
+ *fill*         0x08004af2        0x2 
  .text.__assert_func
-                0x08004b44       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
-                0x08004b44                __assert_func
- .text._free_r  0x08004b80       0x94 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
-                0x08004b80                _free_r
- .text.malloc   0x08004c14       0x10 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
-                0x08004c14                malloc
+                0x08004af4       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
+                0x08004af4                __assert_func
+ .text._free_r  0x08004b30       0x94 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+                0x08004b30                _free_r
+ .text.malloc   0x08004bc4       0x10 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+                0x08004bc4                malloc
  .text.sbrk_aligned
-                0x08004c24       0x44 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+                0x08004bd4       0x44 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x08004c68      0x100 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
-                0x08004c68                _malloc_r
+                0x08004c18      0x100 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+                0x08004c18                _malloc_r
  .text.__malloc_lock
-                0x08004d68        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
-                0x08004d68                __malloc_lock
+                0x08004d18        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+                0x08004d18                __malloc_lock
  .text.__malloc_unlock
-                0x08004d74        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
-                0x08004d74                __malloc_unlock
+                0x08004d24        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+                0x08004d24                __malloc_unlock
  .text.__sflush_r
-                0x08004d80      0x108 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
-                0x08004d80                __sflush_r
+                0x08004d30      0x108 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+                0x08004d30                __sflush_r
  .text._fflush_r
-                0x08004e88       0x50 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
-                0x08004e88                _fflush_r
- .text.fprintf  0x08004ed8       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fprintf.o)
-                0x08004ed8                fiprintf
-                0x08004ed8                fprintf
- .text._sbrk_r  0x08004efc       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
-                0x08004efc                _sbrk_r
- .text.abort    0x08004f1c        0xe C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-abort.o)
-                0x08004f1c                abort
+                0x08004e38       0x50 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+                0x08004e38                _fflush_r
+ .text.fprintf  0x08004e88       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fprintf.o)
+                0x08004e88                fiprintf
+                0x08004e88                fprintf
+ .text._sbrk_r  0x08004eac       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+                0x08004eac                _sbrk_r
+ .text.abort    0x08004ecc        0xe C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-abort.o)
+                0x08004ecc                abort
  .text.__sfputc_r
-                0x08004f2a       0x2e C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x08004eda       0x2e C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x08004f58       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
-                0x08004f58                __sfputs_r
+                0x08004f08       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x08004f08                __sfputs_r
  .text._vfprintf_r
-                0x08004f7c      0x230 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
-                0x08004f7c                _vfprintf_r
-                0x08004f7c                _vfiprintf_r
+                0x08004f2c      0x230 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x08004f2c                _vfprintf_r
+                0x08004f2c                _vfiprintf_r
  .text._printf_common
-                0x080051ac       0xda C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x080051ac                _printf_common
- *fill*         0x08005286        0x2 
+                0x0800515c       0xda C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800515c                _printf_common
+ *fill*         0x08005236        0x2 
  .text._printf_i
-                0x08005288      0x23c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08005288                _printf_i
+                0x08005238      0x23c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08005238                _printf_i
  .text.__swbuf_r
-                0x080054c4       0x7c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
-                0x080054c4                __swbuf_r
+                0x08005474       0x7c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+                0x08005474                __swbuf_r
  .text.__swsetup_r
-                0x08005540       0xac C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
-                0x08005540                __swsetup_r
+                0x080054f0       0xac C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+                0x080054f0                __swsetup_r
  .text._raise_r
-                0x080055ec       0x50 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
-                0x080055ec                _raise_r
- .text.raise    0x0800563c       0x10 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
-                0x0800563c                raise
- .text._kill_r  0x0800564c       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
-                0x0800564c                _kill_r
+                0x0800559c       0x50 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
+                0x0800559c                _raise_r
+ .text.raise    0x080055ec       0x10 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
+                0x080055ec                raise
+ .text._kill_r  0x080055fc       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
+                0x080055fc                _kill_r
  .text._getpid_r
-                0x08005670        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
-                0x08005670                _getpid_r
+                0x08005620        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
+                0x08005620                _getpid_r
  .text.__swhatbuf_r
-                0x08005674       0x4c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
-                0x08005674                __swhatbuf_r
+                0x08005624       0x4c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+                0x08005624                __swhatbuf_r
  .text.__smakebuf_r
-                0x080056c0       0x78 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
-                0x080056c0                __smakebuf_r
+                0x08005670       0x78 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+                0x08005670                __smakebuf_r
  .text._fstat_r
-                0x08005738       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
-                0x08005738                _fstat_r
+                0x080056e8       0x24 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+                0x080056e8                _fstat_r
  .text._isatty_r
-                0x0800575c       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
-                0x0800575c                _isatty_r
+                0x0800570c       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+                0x0800570c                _isatty_r
  *(.glue_7)
- .glue_7        0x0800577c        0x0 linker stubs
+ .glue_7        0x0800572c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0800577c        0x0 linker stubs
+ .glue_7t       0x0800572c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0800577c        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x0800572c        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x0800577c        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x0800577c                _init
- .init          0x08005780        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x0800572c        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0800572c                _init
+ .init          0x08005730        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x08005788        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x08005788                _fini
- .fini          0x0800578c        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x08005794                        . = ALIGN (0x4)
-                0x08005794                        _etext = .
+ .fini          0x08005738        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08005738                _fini
+ .fini          0x0800573c        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08005744                        . = ALIGN (0x4)
+                0x08005744                        _etext = .
 
-.vfp11_veneer   0x08005794        0x0
- .vfp11_veneer  0x08005794        0x0 linker stubs
+.vfp11_veneer   0x08005744        0x0
+ .vfp11_veneer  0x08005744        0x0 linker stubs
 
-.v4_bx          0x08005794        0x0
- .v4_bx         0x08005794        0x0 linker stubs
+.v4_bx          0x08005744        0x0
+ .v4_bx         0x08005744        0x0 linker stubs
 
-.iplt           0x08005794        0x0
- .iplt          0x08005794        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08005744        0x0
+ .iplt          0x08005744        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x08005794      0xbd8
-                0x08005794                        . = ALIGN (0x4)
+.rodata         0x08005744      0xbd8
+                0x08005744                        . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x08005794        0xf ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- *fill*         0x080057a3        0x1 
- .rodata        0x080057a4       0xba ./Src/main.o
+ .rodata        0x08005744        0xf ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ *fill*         0x08005753        0x1 
+ .rodata        0x08005754       0xba ./Src/main.o
  *(.rodata*)
- *fill*         0x0800585e        0x2 
+ *fill*         0x0800580e        0x2 
  .rodata.AHBPrescTable
-                0x08005860       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
-                0x08005860                AHBPrescTable
+                0x08005810       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
+                0x08005810                AHBPrescTable
  .rodata.APBAHBPrescTable
-                0x08005870       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
+                0x08005820       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .rodata.ucg_st7735_set_pos_seq
-                0x08005880       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x08005880                ucg_st7735_set_pos_seq
- *fill*         0x0800589e        0x2 
+                0x08005830       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x08005830                ucg_st7735_set_pos_seq
+ *fill*         0x0800584e        0x2 
  .rodata.ucg_st7735_set_pos_dir0_seq
-                0x080058a0       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x080058a0                ucg_st7735_set_pos_dir0_seq
- *fill*         0x080058be        0x2 
+                0x08005850       0x1e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x08005850                ucg_st7735_set_pos_dir0_seq
+ *fill*         0x0800586e        0x2 
  .rodata.ucg_st7735_set_pos_dir1_seq
-                0x080058c0       0x21 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x080058c0                ucg_st7735_set_pos_dir1_seq
- *fill*         0x080058e1        0x3 
+                0x08005870       0x21 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x08005870                ucg_st7735_set_pos_dir1_seq
+ *fill*         0x08005891        0x3 
  .rodata.ucg_st7735_set_pos_dir2_seq
-                0x080058e4       0x21 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x080058e4                ucg_st7735_set_pos_dir2_seq
- *fill*         0x08005905        0x3 
+                0x08005894       0x21 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x08005894                ucg_st7735_set_pos_dir2_seq
+ *fill*         0x080058b5        0x3 
  .rodata.ucg_st7735_set_pos_dir3_seq
-                0x08005908       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
-                0x08005908                ucg_st7735_set_pos_dir3_seq
+                0x080058b8       0x24 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x080058b8                ucg_st7735_set_pos_dir3_seq
  .rodata.ucg_st7735_power_down_seq
-                0x0800592c        0x7 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
- *fill*         0x08005933        0x1 
+                0x080058dc        0x7 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ *fill*         0x080058e3        0x1 
  .rodata.ucg_tft_128x160_st7735_init_seq
-                0x08005934       0x2c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+                0x080058e4       0x2c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
  .rodata.ucg_font_helvR08_tf
-                0x08005960      0x88b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
-                0x08005960                ucg_font_helvR08_tf
- *fill*         0x080061eb        0x1 
+                0x08005910      0x88b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+                0x08005910                ucg_font_helvR08_tf
+ *fill*         0x0800619b        0x1 
  .rodata.dinoSprite
-                0x080061ec       0x78 ./Src/main.o
+                0x0800619c       0x78 ./Src/main.o
  .rodata.cactusSprite
-                0x08006264       0x28 ./Src/main.o
+                0x08006214       0x28 ./Src/main.o
  .rodata.srand.str1.1
-                0x0800628c       0xde C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-rand.o)
+                0x0800623c       0xde C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-rand.o)
                                  0x6f (size before relaxing)
  .rodata.__assert_func.str1.1
-                0x0800636a        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
+                0x0800631a        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
                                  0x3d (size before relaxing)
  .rodata._vfprintf_r.str1.1
-                0x0800636a        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+                0x0800631a        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
                                  0x11 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x0800636a        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800631a        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
                                  0x22 (size before relaxing)
-                0x0800636c                        . = ALIGN (0x4)
- *fill*         0x0800636a        0x2 
+                0x0800631c                        . = ALIGN (0x4)
+ *fill*         0x0800631a        0x2 
 
-.ARM.extab      0x0800636c        0x0
-                0x0800636c                        . = ALIGN (0x4)
+.ARM.extab      0x0800631c        0x0
+                0x0800631c                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800636c                        . = ALIGN (0x4)
+                0x0800631c                        . = ALIGN (0x4)
 
-.ARM            0x0800636c        0x8
-                0x0800636c                        . = ALIGN (0x4)
-                0x0800636c                        __exidx_start = .
+.ARM            0x0800631c        0x8
+                0x0800631c                        . = ALIGN (0x4)
+                0x0800631c                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0800636c        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
-                0x08006374                        __exidx_end = .
-                0x08006374                        . = ALIGN (0x4)
+ .ARM.exidx     0x0800631c        0x8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memchr.o)
+                0x08006324                        __exidx_end = .
+                0x08006324                        . = ALIGN (0x4)
 
-.preinit_array  0x08006374        0x0
-                0x08006374                        . = ALIGN (0x4)
-                0x08006374                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08006324        0x0
+                0x08006324                        . = ALIGN (0x4)
+                0x08006324                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08006374                        PROVIDE (__preinit_array_end = .)
-                0x08006374                        . = ALIGN (0x4)
+                0x08006324                        PROVIDE (__preinit_array_end = .)
+                0x08006324                        . = ALIGN (0x4)
 
-.init_array     0x08006374        0x4
-                0x08006374                        . = ALIGN (0x4)
-                0x08006374                        PROVIDE (__init_array_start = .)
+.init_array     0x08006324        0x4
+                0x08006324                        . = ALIGN (0x4)
+                0x08006324                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x08006374        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x08006378                        PROVIDE (__init_array_end = .)
-                0x08006378                        . = ALIGN (0x4)
+ .init_array    0x08006324        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08006328                        PROVIDE (__init_array_end = .)
+                0x08006328                        . = ALIGN (0x4)
 
-.fini_array     0x08006378        0x4
-                0x08006378                        . = ALIGN (0x4)
+.fini_array     0x08006328        0x4
+                0x08006328                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08006378        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08006328        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0800637c                        . = ALIGN (0x4)
-                0x0800637c                        _sidata = LOADADDR (.data)
+                0x0800632c                        . = ALIGN (0x4)
+                0x0800632c                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x0800637c        0x0
- .rel.iplt      0x0800637c        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x0800632c        0x0
+ .rel.iplt      0x0800632c        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.data           0x20000000       0x6c load address 0x0800637c
+.data           0x20000000       0x70 load address 0x0800632c
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -6061,111 +6052,115 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .data.SystemCoreClock
                 0x20000000        0x4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
                 0x20000000                SystemCoreClock
+ .data.groundLimit
+                0x20000004        0x4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                0x20000004                groundLimit
  .data.idTaskScanDecodeLen
-                0x20000004        0x1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x20000008        0x1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .data.menuIndex
-                0x20000005        0x1 ./Src/main.o
- .data.needRedraw
-                0x20000006        0x1 ./Src/main.o
- .data.hsNeedRedraw
-                0x20000007        0x1 ./Src/main.o
- .data.levelIndex
-                0x20000008        0x1 ./Src/main.o
- .data.levelNeedRedraw
                 0x20000009        0x1 ./Src/main.o
- .data.playingNeedClear
+ .data.needRedraw
                 0x2000000a        0x1 ./Src/main.o
- .data.firstFrame
+ .data.hsNeedRedraw
                 0x2000000b        0x1 ./Src/main.o
- .data.lastState
+ .data.levelIndex
                 0x2000000c        0x1 ./Src/main.o
- .data.firstScoreFrame
+ .data.levelNeedRedraw
                 0x2000000d        0x1 ./Src/main.o
- .data.gameOverNeedRedraw
+ .data.playingNeedClear
                 0x2000000e        0x1 ./Src/main.o
- *fill*         0x2000000f        0x1 
- .data.__sglue  0x20000010        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x20000010                __sglue
+ .data.firstFrame
+                0x2000000f        0x1 ./Src/main.o
+ .data.lastState
+                0x20000010        0x1 ./Src/main.o
+ .data.firstScoreFrame
+                0x20000011        0x1 ./Src/main.o
+ .data.gameOverNeedRedraw
+                0x20000012        0x1 ./Src/main.o
+ *fill*         0x20000013        0x1 
+ .data.__sglue  0x20000014        0xc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x20000014                __sglue
  .data._impure_ptr
-                0x2000001c        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
-                0x2000001c                _impure_ptr
+                0x20000020        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+                0x20000020                _impure_ptr
  .data._impure_data
-                0x20000020       0x4c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
-                0x20000020                _impure_data
+                0x20000024       0x4c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+                0x20000024                _impure_data
  *(.RamFunc)
  *(.RamFunc*)
-                0x2000006c                        . = ALIGN (0x4)
-                0x2000006c                        _edata = .
+                0x20000070                        . = ALIGN (0x4)
+                0x20000070                        _edata = .
 
-.igot.plt       0x2000006c        0x0 load address 0x080063e8
- .igot.plt      0x2000006c        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x2000006c                        . = ALIGN (0x4)
+.igot.plt       0x20000070        0x0 load address 0x0800639c
+ .igot.plt      0x20000070        0x0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x20000070                        . = ALIGN (0x4)
 
-.bss            0x2000006c     0x13f4 load address 0x080063e8
-                0x2000006c                        _sbss = .
-                0x2000006c                        __bss_start__ = _sbss
+.bss            0x20000070     0x13f4 load address 0x0800639c
+                0x20000070                        _sbss = .
+                0x20000070                        __bss_start__ = _sbss
  *(.bss)
- .bss           0x2000006c       0x1c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x20000070       0x1c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.bss*)
  .bss.g_pTimerHandle
-                0x20000088      0x180 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x2000008c      0x180 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .bss.g_wMilSecTickTimer
-                0x20000208        0x4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x2000020c        0x4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .bss.g_pUartQueueRx
-                0x2000020c        0x8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+                0x20000210        0x8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
  .bss.fontQueue
-                0x20000214       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x20000218       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .bss.pQueueFont
-                0x20000224     0x1000 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x20000228     0x1000 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .bss.ucg_draw_str
-                0x20001224        0xc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
-                0x20001224                ucg_draw_str
- .bss.next.0    0x20001230        0x1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- *fill*         0x20001231        0x3 
- .bss.ucg       0x20001234       0xb4 ./Src/main.o
+                0x20001228        0xc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x20001228                ucg_draw_str
+ .bss.next.0    0x20001234        0x1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ *fill*         0x20001235        0x3 
+ .bss.ucg       0x20001238       0xb4 ./Src/main.o
  .bss.prevDinoRect
-                0x200012e8       0x10 ./Src/main.o
+                0x200012ec       0x10 ./Src/main.o
  .bss.prevScoreNumRect
-                0x200012f8       0x10 ./Src/main.o
- .bss.prev.0    0x20001308        0x5 ./Src/main.o
- *fill*         0x2000130d        0x3 
+                0x200012fc       0x10 ./Src/main.o
+ .bss.prev.0    0x2000130c        0x5 ./Src/main.o
+ *fill*         0x20001311        0x3 
  .bss.__sbrk_heap_end
-                0x20001310        0x4 ./Src/sysmem.o
- .bss.__sf      0x20001314      0x138 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x20001314                __sf
+                0x20001314        0x4 ./Src/sysmem.o
+ .bss.__sf      0x20001318      0x138 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x20001318                __sf
  .bss.__stdio_exit_handler
-                0x2000144c        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
-                0x2000144c                __stdio_exit_handler
- .bss.errno     0x20001450        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
-                0x20001450                errno
+                0x20001450        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                0x20001450                __stdio_exit_handler
+ .bss.errno     0x20001454        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+                0x20001454                errno
  .bss.__lock___malloc_recursive_mutex
-                0x20001454        0x1 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
-                0x20001454                __lock___malloc_recursive_mutex
+                0x20001458        0x1 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                0x20001458                __lock___malloc_recursive_mutex
  .bss.__lock___sfp_recursive_mutex
-                0x20001455        0x1 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
-                0x20001455                __lock___sfp_recursive_mutex
- *fill*         0x20001456        0x2 
+                0x20001459        0x1 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                0x20001459                __lock___sfp_recursive_mutex
+ *fill*         0x2000145a        0x2 
  .bss.__malloc_sbrk_start
-                0x20001458        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
-                0x20001458                __malloc_sbrk_start
- .bss.__malloc_free_list
                 0x2000145c        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
-                0x2000145c                __malloc_free_list
+                0x2000145c                __malloc_sbrk_start
+ .bss.__malloc_free_list
+                0x20001460        0x4 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+                0x20001460                __malloc_free_list
  *(COMMON)
-                0x20001460                        . = ALIGN (0x4)
-                0x20001460                        _ebss = .
-                0x20001460                        __bss_end__ = _ebss
+                0x20001464                        . = ALIGN (0x4)
+                0x20001464                        _ebss = .
+                0x20001464                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20001460      0x600 load address 0x080063e8
-                0x20001460                        . = ALIGN (0x8)
+                0x20001464      0x604 load address 0x0800639c
+                0x20001468                        . = ALIGN (0x8)
+ *fill*         0x20001464        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x20001460                        PROVIDE (_end = .)
-                0x20001660                        . = (. + _Min_Heap_Size)
- *fill*         0x20001460      0x200 
-                0x20001a60                        . = (. + _Min_Stack_Size)
- *fill*         0x20001660      0x400 
-                0x20001a60                        . = ALIGN (0x8)
+                0x20001468                        PROVIDE (_end = .)
+                0x20001668                        . = (. + _Min_Heap_Size)
+ *fill*         0x20001468      0x200 
+                0x20001a68                        . = (. + _Min_Stack_Size)
+ *fill*         0x20001668      0x400 
+                0x20001a68                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -6313,71 +6308,71 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
 LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x14458
+.debug_info     0x00000000    0x1431b
  .debug_info    0x00000000      0x593 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_info    0x00000593      0x60c ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_info    0x00000b9f      0xce0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_info    0x0000187f      0x9c2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
- .debug_info    0x00002241      0x241 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .debug_info    0x00002482      0x51d ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
- .debug_info    0x0000299f      0x39d ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_info    0x00002d3c      0x949 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
- .debug_info    0x00003685      0xccf ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_info    0x00004354      0xb6d ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_info    0x00004ec1      0xa75 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
- .debug_info    0x00005936      0x1da ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
- .debug_info    0x00005b10      0x844 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
- .debug_info    0x00006354      0xb51 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
- .debug_info    0x00006ea5      0x992 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
- .debug_info    0x00007837      0xa5b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
- .debug_info    0x00008292      0x845 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
- .debug_info    0x00008ad7      0x752 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
- .debug_info    0x00009229     0x13cc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_info    0x0000a5f5      0x779 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
- .debug_info    0x0000ad6e      0x925 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
- .debug_info    0x0000b693      0x73e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
- .debug_info    0x0000bdd1     0x5a58 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
- .debug_info    0x00011829      0x91d ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
- .debug_info    0x00012146      0x305 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
- .debug_info    0x0001244b      0x2b8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
- .debug_info    0x00012703     0x151a ./Src/main.o
- .debug_info    0x00013c1d      0x6a3 ./Src/syscalls.o
- .debug_info    0x000142c0      0x168 ./Src/sysmem.o
- .debug_info    0x00014428       0x30 ./Startup/startup_stm32f401retx.o
+ .debug_info    0x00002241      0x1d4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+ .debug_info    0x00002415      0x4ab ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+ .debug_info    0x000028c0      0x36a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_info    0x00002c2a      0x949 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_info    0x00003573      0xccf ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_info    0x00004242      0xb6d ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_info    0x00004daf      0xa75 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+ .debug_info    0x00005824      0x1da ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+ .debug_info    0x000059fe      0x844 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+ .debug_info    0x00006242      0xb51 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ .debug_info    0x00006d93      0x992 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+ .debug_info    0x00007725      0xa5b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ .debug_info    0x00008180      0x845 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+ .debug_info    0x000089c5      0x752 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+ .debug_info    0x00009117     0x13cc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_info    0x0000a4e3      0x779 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+ .debug_info    0x0000ac5c      0x925 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+ .debug_info    0x0000b581      0x73e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+ .debug_info    0x0000bcbf     0x5a58 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+ .debug_info    0x00011717      0x91d ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+ .debug_info    0x00012034      0x305 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_info    0x00012339      0x2b8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_info    0x000125f1     0x14ef ./Src/main.o
+ .debug_info    0x00013ae0      0x6a3 ./Src/syscalls.o
+ .debug_info    0x00014183      0x168 ./Src/sysmem.o
+ .debug_info    0x000142eb       0x30 ./Startup/startup_stm32f401retx.o
 
-.debug_abbrev   0x00000000     0x3327
+.debug_abbrev   0x00000000     0x32f1
  .debug_abbrev  0x00000000      0x144 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_abbrev  0x00000144      0x1ee ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_abbrev  0x00000332      0x1e1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_abbrev  0x00000513      0x1b1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
- .debug_abbrev  0x000006c4      0x10a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .debug_abbrev  0x000007ce      0x18f ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
- .debug_abbrev  0x0000095d      0x18c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_abbrev  0x00000ae9      0x2e6 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
- .debug_abbrev  0x00000dcf      0x354 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_abbrev  0x00001123      0x255 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_abbrev  0x00001378      0x1b1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
- .debug_abbrev  0x00001529       0xe6 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
- .debug_abbrev  0x0000160f      0x196 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
- .debug_abbrev  0x000017a5      0x210 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
- .debug_abbrev  0x000019b5      0x1e0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
- .debug_abbrev  0x00001b95      0x22c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
- .debug_abbrev  0x00001dc1      0x1a2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
- .debug_abbrev  0x00001f63      0x183 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
- .debug_abbrev  0x000020e6      0x30e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_abbrev  0x000023f4      0x1b9 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
- .debug_abbrev  0x000025ad      0x19c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
- .debug_abbrev  0x00002749      0x163 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
- .debug_abbrev  0x000028ac       0xac ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
- .debug_abbrev  0x00002958      0x1ce ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
- .debug_abbrev  0x00002b26      0x13c ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
- .debug_abbrev  0x00002c62       0xe3 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
- .debug_abbrev  0x00002d45      0x34c ./Src/main.o
- .debug_abbrev  0x00003091      0x1b6 ./Src/syscalls.o
- .debug_abbrev  0x00003247       0xbc ./Src/sysmem.o
- .debug_abbrev  0x00003303       0x24 ./Startup/startup_stm32f401retx.o
+ .debug_abbrev  0x000006c4      0x109 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+ .debug_abbrev  0x000007cd      0x172 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+ .debug_abbrev  0x0000093f      0x171 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_abbrev  0x00000ab0      0x2e6 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_abbrev  0x00000d96      0x354 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_abbrev  0x000010ea      0x255 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_abbrev  0x0000133f      0x1b1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+ .debug_abbrev  0x000014f0       0xe6 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+ .debug_abbrev  0x000015d6      0x196 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+ .debug_abbrev  0x0000176c      0x210 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ .debug_abbrev  0x0000197c      0x1e0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+ .debug_abbrev  0x00001b5c      0x22c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ .debug_abbrev  0x00001d88      0x1a2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+ .debug_abbrev  0x00001f2a      0x183 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+ .debug_abbrev  0x000020ad      0x30e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_abbrev  0x000023bb      0x1b9 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+ .debug_abbrev  0x00002574      0x19c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+ .debug_abbrev  0x00002710      0x163 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+ .debug_abbrev  0x00002873       0xac ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+ .debug_abbrev  0x0000291f      0x1ce ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+ .debug_abbrev  0x00002aed      0x13c ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_abbrev  0x00002c29       0xe3 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_abbrev  0x00002d0c      0x34f ./Src/main.o
+ .debug_abbrev  0x0000305b      0x1b6 ./Src/syscalls.o
+ .debug_abbrev  0x00003211       0xbc ./Src/sysmem.o
+ .debug_abbrev  0x000032cd       0x24 ./Startup/startup_stm32f401retx.o
 
-.debug_aranges  0x00000000      0xcb8
+.debug_aranges  0x00000000      0xc90
  .debug_aranges
                 0x00000000       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_aranges
@@ -6387,60 +6382,60 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_aranges
                 0x00000250      0x100 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
  .debug_aranges
-                0x00000350       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                0x00000350       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_aranges
-                0x00000398       0x68 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x00000380       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
  .debug_aranges
-                0x00000400       0x38 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+                0x000003e0       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_aranges
-                0x00000438       0x70 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x00000410       0x70 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .debug_aranges
-                0x000004a8       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+                0x00000480       0x80 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
  .debug_aranges
-                0x00000528       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x00000500       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
  .debug_aranges
-                0x00000570       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+                0x00000548       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
  .debug_aranges
-                0x000005b8       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+                0x00000590       0x30 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
  .debug_aranges
-                0x000005e8       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x000005c0       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
  .debug_aranges
-                0x00000638       0xa0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x00000610       0xa0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
  .debug_aranges
-                0x000006d8       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+                0x000006b0       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
  .debug_aranges
-                0x00000720       0x40 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x000006f8       0x40 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
  .debug_aranges
-                0x00000760       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x00000738       0x60 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
  .debug_aranges
-                0x000007c0       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+                0x00000798       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
  .debug_aranges
-                0x000007e0      0x168 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x000007b8      0x168 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .debug_aranges
-                0x00000948       0x28 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+                0x00000920       0x28 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
  .debug_aranges
-                0x00000970       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+                0x00000948       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
  .debug_aranges
-                0x000009b8       0x28 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+                0x00000990       0x28 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
  .debug_aranges
-                0x000009e0       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+                0x000009b8       0x18 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
  .debug_aranges
-                0x000009f8       0x68 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+                0x000009d0       0x68 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
  .debug_aranges
-                0x00000a60       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x00000a38       0x50 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
  .debug_aranges
-                0x00000ab0       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+                0x00000a88       0x48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
  .debug_aranges
-                0x00000af8       0xd0 ./Src/main.o
+                0x00000ad0       0xd0 ./Src/main.o
  .debug_aranges
-                0x00000bc8       0xa8 ./Src/syscalls.o
+                0x00000ba0       0xa8 ./Src/syscalls.o
  .debug_aranges
-                0x00000c70       0x20 ./Src/sysmem.o
+                0x00000c48       0x20 ./Src/sysmem.o
  .debug_aranges
-                0x00000c90       0x28 ./Startup/startup_stm32f401retx.o
+                0x00000c68       0x28 ./Startup/startup_stm32f401retx.o
 
 .debug_rnglists
-                0x00000000      0x92c
+                0x00000000      0x90f
  .debug_rnglists
                 0x00000000       0x21 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_rnglists
@@ -6450,57 +6445,57 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_rnglists
                 0x000001b3       0xbf ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
  .debug_rnglists
-                0x00000272       0x31 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                0x00000272       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_rnglists
-                0x000002a3       0x49 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                0x00000292       0x43 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
  .debug_rnglists
-                0x000002ec       0x27 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+                0x000002d5       0x21 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
  .debug_rnglists
-                0x00000313       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+                0x000002f6       0x54 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
  .debug_rnglists
-                0x00000367       0x5e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+                0x0000034a       0x5e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
  .debug_rnglists
-                0x000003c5       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+                0x000003a8       0x32 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
  .debug_rnglists
-                0x000003f7       0x35 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+                0x000003da       0x35 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
  .debug_rnglists
-                0x0000042c       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+                0x0000040f       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
  .debug_rnglists
-                0x0000044e       0x38 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+                0x00000431       0x38 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
  .debug_rnglists
-                0x00000486       0x75 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+                0x00000469       0x75 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
  .debug_rnglists
-                0x000004fb       0x35 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+                0x000004de       0x35 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
  .debug_rnglists
-                0x00000530       0x2f ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+                0x00000513       0x2f ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
  .debug_rnglists
-                0x0000055f       0x43 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+                0x00000542       0x43 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
  .debug_rnglists
-                0x000005a2       0x14 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+                0x00000585       0x14 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
  .debug_rnglists
-                0x000005b6      0x112 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+                0x00000599      0x112 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
  .debug_rnglists
-                0x000006c8       0x19 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+                0x000006ab       0x19 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
  .debug_rnglists
-                0x000006e1       0x33 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+                0x000006c4       0x33 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
  .debug_rnglists
-                0x00000714       0x19 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+                0x000006f7       0x19 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
  .debug_rnglists
-                0x0000072d       0x4c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+                0x00000710       0x4c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
  .debug_rnglists
-                0x00000779       0x39 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+                0x0000075c       0x39 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
  .debug_rnglists
-                0x000007b2       0x33 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+                0x00000795       0x33 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
  .debug_rnglists
-                0x000007e5       0xa2 ./Src/main.o
+                0x000007c8       0xa2 ./Src/main.o
  .debug_rnglists
-                0x00000887       0x79 ./Src/syscalls.o
+                0x0000086a       0x79 ./Src/syscalls.o
  .debug_rnglists
-                0x00000900       0x13 ./Src/sysmem.o
+                0x000008e3       0x13 ./Src/sysmem.o
  .debug_rnglists
-                0x00000913       0x19 ./Startup/startup_stm32f401retx.o
+                0x000008f6       0x19 ./Startup/startup_stm32f401retx.o
 
-.debug_macro    0x00000000     0xe435
+.debug_macro    0x00000000     0xe41d
  .debug_macro   0x00000000       0xce ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_macro   0x000000ce      0xae4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_macro   0x00000bb2       0x6b ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
@@ -6524,181 +6519,181 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_macro   0x0000add4       0x6c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_macro   0x0000ae40       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
  .debug_macro   0x0000ae74       0x79 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
- .debug_macro   0x0000aeed       0x3a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
- .debug_macro   0x0000af27      0x146 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b06d       0x2a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b097       0x61 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b0f8       0x43 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b13b       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b16f       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b185      0x11c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b2a1       0x9b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b33c      0x370 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b6ac       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b6c2       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b70c       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b740       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b750       0x58 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b7a8       0x8e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b836       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b852      0x185 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b9d7       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000b9ed       0x29 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_macro   0x0000ba16       0xe3 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
- .debug_macro   0x0000baf9       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
- .debug_macro   0x0000bb15      0x10a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_macro   0x0000bc1f      0x16a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_macro   0x0000bd89      0x223 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_macro   0x0000bfac      0x141 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_macro   0x0000c0ed      0x190 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_macro   0x0000c27d      0x301 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_macro   0x0000c57e       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
- .debug_macro   0x0000c602       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
- .debug_macro   0x0000c686       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
- .debug_macro   0x0000c70a       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
- .debug_macro   0x0000c78e       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
- .debug_macro   0x0000c812       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
- .debug_macro   0x0000c896       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
- .debug_macro   0x0000c91e       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
- .debug_macro   0x0000c9a2      0x167 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_macro   0x0000cb09       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_macro   0x0000cb19       0x3c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_macro   0x0000cb55       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_macro   0x0000cb75      0x152 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
- .debug_macro   0x0000ccc7       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
- .debug_macro   0x0000cd4b       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
- .debug_macro   0x0000cdcf       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
- .debug_macro   0x0000ce53       0xbd ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
- .debug_macro   0x0000cf10       0xc2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
- .debug_macro   0x0000cfd2       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
- .debug_macro   0x0000cfe8       0x72 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
- .debug_macro   0x0000d05a       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
- .debug_macro   0x0000d06a      0x284 ./Src/main.o
- .debug_macro   0x0000d2ee       0x16 ./Src/main.o
- .debug_macro   0x0000d304       0x10 ./Src/main.o
- .debug_macro   0x0000d314       0x16 ./Src/main.o
- .debug_macro   0x0000d32a       0x16 ./Src/main.o
- .debug_macro   0x0000d340      0x146 ./Src/main.o
- .debug_macro   0x0000d486      0x274 ./Src/syscalls.o
- .debug_macro   0x0000d6fa       0x5b ./Src/syscalls.o
- .debug_macro   0x0000d755       0x94 ./Src/syscalls.o
- .debug_macro   0x0000d7e9       0x57 ./Src/syscalls.o
- .debug_macro   0x0000d840       0x10 ./Src/syscalls.o
- .debug_macro   0x0000d850       0x10 ./Src/syscalls.o
- .debug_macro   0x0000d860       0x10 ./Src/syscalls.o
- .debug_macro   0x0000d870       0x10 ./Src/syscalls.o
- .debug_macro   0x0000d880       0x1c ./Src/syscalls.o
- .debug_macro   0x0000d89c       0x52 ./Src/syscalls.o
- .debug_macro   0x0000d8ee       0x22 ./Src/syscalls.o
- .debug_macro   0x0000d910       0x10 ./Src/syscalls.o
- .debug_macro   0x0000d920       0x52 ./Src/syscalls.o
- .debug_macro   0x0000d972       0xcf ./Src/syscalls.o
- .debug_macro   0x0000da41       0x1c ./Src/syscalls.o
- .debug_macro   0x0000da5d       0x3d ./Src/syscalls.o
- .debug_macro   0x0000da9a       0x35 ./Src/syscalls.o
- .debug_macro   0x0000dacf      0x12c ./Src/syscalls.o
- .debug_macro   0x0000dbfb       0x10 ./Src/syscalls.o
- .debug_macro   0x0000dc0b      0x242 ./Src/syscalls.o
- .debug_macro   0x0000de4d       0x1c ./Src/syscalls.o
- .debug_macro   0x0000de69       0x10 ./Src/syscalls.o
- .debug_macro   0x0000de79      0x18a ./Src/syscalls.o
- .debug_macro   0x0000e003       0x16 ./Src/syscalls.o
- .debug_macro   0x0000e019       0xce ./Src/syscalls.o
- .debug_macro   0x0000e0e7      0x112 ./Src/sysmem.o
- .debug_macro   0x0000e1f9      0x23c ./Src/sysmem.o
+ .debug_macro   0x0000aeed       0x22 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+ .debug_macro   0x0000af0f      0x146 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b055       0x2a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b07f       0x61 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b0e0       0x43 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b123       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b157       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b16d      0x11c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b289       0x9b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b324      0x370 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b694       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b6aa       0x4a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b6f4       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b728       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b738       0x58 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b790       0x8e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b81e       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b83a      0x185 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b9bf       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b9d5       0x29 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_macro   0x0000b9fe       0xe3 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_macro   0x0000bae1       0x1c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_macro   0x0000bafd      0x10a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_macro   0x0000bc07      0x16a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_macro   0x0000bd71      0x223 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_macro   0x0000bf94      0x141 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_macro   0x0000c0d5      0x190 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_macro   0x0000c265      0x301 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_macro   0x0000c566       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+ .debug_macro   0x0000c5ea       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+ .debug_macro   0x0000c66e       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+ .debug_macro   0x0000c6f2       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ .debug_macro   0x0000c776       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+ .debug_macro   0x0000c7fa       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ .debug_macro   0x0000c87e       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+ .debug_macro   0x0000c906       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+ .debug_macro   0x0000c98a      0x167 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_macro   0x0000caf1       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_macro   0x0000cb01       0x3c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_macro   0x0000cb3d       0x20 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_macro   0x0000cb5d      0x152 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+ .debug_macro   0x0000ccaf       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+ .debug_macro   0x0000cd33       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+ .debug_macro   0x0000cdb7       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+ .debug_macro   0x0000ce3b       0xbd ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+ .debug_macro   0x0000cef8       0xc2 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_macro   0x0000cfba       0x16 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_macro   0x0000cfd0       0x72 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_macro   0x0000d042       0x10 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_macro   0x0000d052      0x284 ./Src/main.o
+ .debug_macro   0x0000d2d6       0x16 ./Src/main.o
+ .debug_macro   0x0000d2ec       0x10 ./Src/main.o
+ .debug_macro   0x0000d2fc       0x16 ./Src/main.o
+ .debug_macro   0x0000d312       0x16 ./Src/main.o
+ .debug_macro   0x0000d328      0x146 ./Src/main.o
+ .debug_macro   0x0000d46e      0x274 ./Src/syscalls.o
+ .debug_macro   0x0000d6e2       0x5b ./Src/syscalls.o
+ .debug_macro   0x0000d73d       0x94 ./Src/syscalls.o
+ .debug_macro   0x0000d7d1       0x57 ./Src/syscalls.o
+ .debug_macro   0x0000d828       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000d838       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000d848       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000d858       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000d868       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000d884       0x52 ./Src/syscalls.o
+ .debug_macro   0x0000d8d6       0x22 ./Src/syscalls.o
+ .debug_macro   0x0000d8f8       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000d908       0x52 ./Src/syscalls.o
+ .debug_macro   0x0000d95a       0xcf ./Src/syscalls.o
+ .debug_macro   0x0000da29       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000da45       0x3d ./Src/syscalls.o
+ .debug_macro   0x0000da82       0x35 ./Src/syscalls.o
+ .debug_macro   0x0000dab7      0x12c ./Src/syscalls.o
+ .debug_macro   0x0000dbe3       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000dbf3      0x242 ./Src/syscalls.o
+ .debug_macro   0x0000de35       0x1c ./Src/syscalls.o
+ .debug_macro   0x0000de51       0x10 ./Src/syscalls.o
+ .debug_macro   0x0000de61      0x18a ./Src/syscalls.o
+ .debug_macro   0x0000dfeb       0x16 ./Src/syscalls.o
+ .debug_macro   0x0000e001       0xce ./Src/syscalls.o
+ .debug_macro   0x0000e0cf      0x112 ./Src/sysmem.o
+ .debug_macro   0x0000e1e1      0x23c ./Src/sysmem.o
 
-.debug_line     0x00000000     0xe986
+.debug_line     0x00000000     0xe913
  .debug_line    0x00000000      0x68d ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_line    0x0000068d      0x921 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_line    0x00000fae      0xe46 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_line    0x00001df4      0xbb1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
- .debug_line    0x000029a5      0x533 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .debug_line    0x00002ed8      0x67f ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
- .debug_line    0x00003557      0x816 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_line    0x00003d6d      0x98b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
- .debug_line    0x000046f8      0xa48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_line    0x00005140      0x7ba ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_line    0x000058fa      0x65e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
- .debug_line    0x00005f58      0x5d4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
- .debug_line    0x0000652c      0x773 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
- .debug_line    0x00006c9f      0x82b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
- .debug_line    0x000074ca      0x7ef ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
- .debug_line    0x00007cb9      0x778 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
- .debug_line    0x00008431      0x5f5 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
- .debug_line    0x00008a26      0x520 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
- .debug_line    0x00008f46      0xf79 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_line    0x00009ebf      0x694 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
- .debug_line    0x0000a553      0x659 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
- .debug_line    0x0000abac      0x52c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
- .debug_line    0x0000b0d8      0x4e3 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
- .debug_line    0x0000b5bb      0x810 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
- .debug_line    0x0000bdcb      0x704 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
- .debug_line    0x0000c4cf      0x5d9 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
- .debug_line    0x0000caa8     0x102f ./Src/main.o
- .debug_line    0x0000dad7      0x8ac ./Src/syscalls.o
- .debug_line    0x0000e383      0x588 ./Src/sysmem.o
- .debug_line    0x0000e90b       0x7b ./Startup/startup_stm32f401retx.o
+ .debug_line    0x000029a5      0x4fb ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+ .debug_line    0x00002ea0      0x65a ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+ .debug_line    0x000034fa      0x807 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_line    0x00003d01      0x98b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_line    0x0000468c      0xa48 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_line    0x000050d4      0x7ba ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_line    0x0000588e      0x65e ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+ .debug_line    0x00005eec      0x5d4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+ .debug_line    0x000064c0      0x773 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+ .debug_line    0x00006c33      0x82b ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ .debug_line    0x0000745e      0x7ef ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+ .debug_line    0x00007c4d      0x778 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ .debug_line    0x000083c5      0x5f5 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+ .debug_line    0x000089ba      0x520 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+ .debug_line    0x00008eda      0xf79 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_line    0x00009e53      0x694 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+ .debug_line    0x0000a4e7      0x659 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+ .debug_line    0x0000ab40      0x52c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+ .debug_line    0x0000b06c      0x4e3 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+ .debug_line    0x0000b54f      0x810 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+ .debug_line    0x0000bd5f      0x704 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_line    0x0000c463      0x5d9 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_line    0x0000ca3c     0x1028 ./Src/main.o
+ .debug_line    0x0000da64      0x8ac ./Src/syscalls.o
+ .debug_line    0x0000e310      0x588 ./Src/sysmem.o
+ .debug_line    0x0000e898       0x7b ./Startup/startup_stm32f401retx.o
 
-.debug_str      0x00000000    0x49e6b
- .debug_str     0x00000000    0x49e6b ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
+.debug_str      0x00000000    0x49dd1
+ .debug_str     0x00000000    0x49dd1 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
                               0x35a03 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
                               0x3a86c (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
                               0x39c56 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
                               0x3a993 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
-                               0x3ef2 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
-                               0x4140 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
-                               0x75d6 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+                               0x3ed4 (size before relaxing)
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+                               0x40e4 (size before relaxing)
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+                               0x75b6 (size before relaxing)
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
                               0x39646 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
                               0x3cf8d (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
                               0x3c6bc (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
                                0x5c4a (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
                                0x579e (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
                                0x5bee (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
                                0x5d8e (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
                                0x5c37 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
                                0x5d5f (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
                                0x5c0a (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
                                0x5be1 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
                                0x9315 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
                                0x8dd0 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
                                0x5c08 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
                                0x5b89 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel_font_data.o
                                0x7be6 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
                                0x6009 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
                               0x358fa (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_str     0x00049dd1        0x0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
                                0x3ef8 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./Src/main.o
-                              0x40447 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./Src/syscalls.o
+ .debug_str     0x00049dd1        0x0 ./Src/main.o
+                              0x40433 (size before relaxing)
+ .debug_str     0x00049dd1        0x0 ./Src/syscalls.o
                                0x99da (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./Src/sysmem.o
+ .debug_str     0x00049dd1        0x0 ./Src/sysmem.o
                                0x7778 (size before relaxing)
- .debug_str     0x00049e6b        0x0 ./Startup/startup_stm32f401retx.o
+ .debug_str     0x00049dd1        0x0 ./Startup/startup_stm32f401retx.o
                                  0x67 (size before relaxing)
 
 .comment        0x00000000       0x43
@@ -6761,66 +6756,66 @@ LOAD C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.exte
  .comment       0x00000043        0x0 ./Src/sysmem.o
                                  0x44 (size before relaxing)
 
-.debug_frame    0x00000000     0x3a74
+.debug_frame    0x00000000     0x39b8
  .debug_frame   0x00000000       0x74 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Source/system_stm32f4xx.o
  .debug_frame   0x00000074      0x23c ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_gpio.o
  .debug_frame   0x000002b0      0x774 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_rcc.o
  .debug_frame   0x00000a24      0x490 ./SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/src/stm32f401re_usart.o
- .debug_frame   0x00000eb4       0xfc ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
- .debug_frame   0x00000fb0      0x18c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
- .debug_frame   0x0000113c       0xa8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
- .debug_frame   0x000011e4      0x1a8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
- .debug_frame   0x0000138c      0x1e0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
- .debug_frame   0x0000156c       0xec ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
- .debug_frame   0x00001658       0xf0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
- .debug_frame   0x00001748       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
- .debug_frame   0x000017d0      0x11c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
- .debug_frame   0x000018ec      0x2a4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
- .debug_frame   0x00001b90       0xec ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
- .debug_frame   0x00001c7c       0xd0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
- .debug_frame   0x00001d4c      0x154 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
- .debug_frame   0x00001ea0       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
- .debug_frame   0x00001ed4      0x664 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
- .debug_frame   0x00002538       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
- .debug_frame   0x00002594       0xe8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
- .debug_frame   0x0000267c       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
- .debug_frame   0x000026d8      0x184 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
- .debug_frame   0x0000285c      0x118 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
- .debug_frame   0x00002974      0x100 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
- .debug_frame   0x00002a74      0x370 ./Src/main.o
- .debug_frame   0x00002de4      0x2ac ./Src/syscalls.o
- .debug_frame   0x00003090       0x34 ./Src/sysmem.o
- .debug_frame   0x000030c4       0x44 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-rand.o)
- .debug_frame   0x00003108      0x144 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
- .debug_frame   0x0000324c       0x34 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
- .debug_frame   0x00003280       0x88 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
- .debug_frame   0x00003308       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x00003328       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
- .debug_frame   0x00003354       0x38 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
- .debug_frame   0x0000338c       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
- .debug_frame   0x000033b8       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
- .debug_frame   0x000033e4       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
- .debug_frame   0x00003410       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
- .debug_frame   0x00003430       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
- .debug_frame   0x0000345c       0xb0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
- .debug_frame   0x0000350c       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
- .debug_frame   0x0000354c       0x38 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
- .debug_frame   0x00003584       0x30 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
- .debug_frame   0x000035b4       0x50 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
- .debug_frame   0x00003604       0x30 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
- .debug_frame   0x00003634       0x5c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
- .debug_frame   0x00003690       0x64 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fprintf.o)
- .debug_frame   0x000036f4       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
- .debug_frame   0x00003720       0x28 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-abort.o)
- .debug_frame   0x00003748       0xa8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
- .debug_frame   0x000037f0       0x60 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x00003850       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
- .debug_frame   0x00003890       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
- .debug_frame   0x000038bc       0xcc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
- .debug_frame   0x00003988       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
- .debug_frame   0x000039c4       0x58 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
- .debug_frame   0x00003a1c       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
- .debug_frame   0x00003a48       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x00000eb4       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Dino/Dino.o
+ .debug_frame   0x00000f3c      0x168 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Game/Game.o
+ .debug_frame   0x000010a4       0x84 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/Obstracle/Obstacle.o
+ .debug_frame   0x00001128      0x1a8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos/timer.o
+ .debug_frame   0x000012d0      0x1e0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial/serial.o
+ .debug_frame   0x000014b0       0xec ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/Ucglib.o
+ .debug_frame   0x0000159c       0xf0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_box.o
+ .debug_frame   0x0000168c       0x88 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_ccs.o
+ .debug_frame   0x00001714      0x11c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_clip.o
+ .debug_frame   0x00001830      0x2a4 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_com_msg_api.o
+ .debug_frame   0x00001ad4       0xec ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_default_cb.o
+ .debug_frame   0x00001bc0       0xd0 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_ic_st7735.o
+ .debug_frame   0x00001c90      0x154 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_msg_api.o
+ .debug_frame   0x00001de4       0x34 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_dev_tft_128x128_st7735.o
+ .debug_frame   0x00001e18      0x664 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_font.o
+ .debug_frame   0x0000247c       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_init.o
+ .debug_frame   0x000024d8       0xe8 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_line.o
+ .debug_frame   0x000025c0       0x5c ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_pixel.o
+ .debug_frame   0x0000261c      0x184 ./SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib/ucg_rotate.o
+ .debug_frame   0x000027a0      0x118 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/buff.o
+ .debug_frame   0x000028b8      0x100 ./SDK_1.0.3_NUCLEO-F401RE/shared/Utilities/utilities.o
+ .debug_frame   0x000029b8      0x370 ./Src/main.o
+ .debug_frame   0x00002d28      0x2ac ./Src/syscalls.o
+ .debug_frame   0x00002fd4       0x34 ./Src/sysmem.o
+ .debug_frame   0x00003008       0x44 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-rand.o)
+ .debug_frame   0x0000304c      0x144 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00003190       0x34 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x000031c4       0x88 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x0000324c       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x0000326c       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00003298       0x38 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x000032d0       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x000032fc       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00003328       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00003354       0x20 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-errno.o)
+ .debug_frame   0x00003374       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .debug_frame   0x000033a0       0xb0 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00003450       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-assert.o)
+ .debug_frame   0x00003490       0x38 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x000034c8       0x30 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-malloc.o)
+ .debug_frame   0x000034f8       0x50 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00003548       0x30 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00003578       0x5c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x000035d4       0x64 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fprintf.o)
+ .debug_frame   0x00003638       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00003664       0x28 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-abort.o)
+ .debug_frame   0x0000368c       0xa8 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x00003734       0x60 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00003794       0x40 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x000037d4       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x00003800       0xcc C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signal.o)
+ .debug_frame   0x000038cc       0x3c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-signalr.o)
+ .debug_frame   0x00003908       0x58 C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x00003960       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x0000398c       0x2c C:/ST/STM32CubeIDE_2.0.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.13.3.rel1.win32_1.0.100.202509120712/tools/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-isattyr.o)
 
 .debug_line_str
                 0x00000000       0x4b
